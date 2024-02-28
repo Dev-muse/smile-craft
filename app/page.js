@@ -1,10 +1,20 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+
+import {
+  Hero, About, Services,
+  Team, Pricing, Blog, Contact
+} from './components'
 
 export default function Home() {
   return (
     <main>
-      Hello
+      <Hero />
+      <About />
+      <Services />
+      <Team />
+      <Pricing />
+      <Blog />
+      <Contact />
     </main>
   );
 }
