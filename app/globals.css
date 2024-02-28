@@ -321,7 +321,7 @@ section{
 }
 
 .team .slide .image .share a:hover{
-    color: var(--secondary);
+    color: var(--primary-light);
 }
 
 .team .slide .content{
@@ -369,9 +369,7 @@ section{
     padding:4rem 2rem;
 }
 
-.pricing .box-container .active{
-    background: var(--hover);
-}
+
 
 .pricing .box-container .box .title{
     margin: 3rem 0;
@@ -415,7 +413,17 @@ section{
 
 .pricing .box-container .box ul li i{
     padding: 0 1rem;
-    color: var(--secondary);
+    color: var(--primary);
+}
+
+.pricing .box-container .active,
+.pricing .box-container .active ul li{
+    background: var(--black);
+    color: var(--white)
+}
+.pricing .box-container .active .btn{
+background:var(--primary);
+color:var(--white);
 }
 
 /* pricing plan ends */
