@@ -37,7 +37,7 @@ const Footer = () => {
 
             </div>
 
-            <div class="credit">created by <a href='rapidmuse.com' target='_blank'>Rapidmuse</a> | all rights reserved!</div>
+            <div class="credit">Built by <a href='https://www.rapidmuse.com' target='_blank'>Rapidmuse</a> | all rights reserved</div>
 
         </section >
 
